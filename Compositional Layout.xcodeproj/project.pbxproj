@@ -10,12 +10,18 @@
 		74D5FF782943A63B00029FF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D5FF772943A63B00029FF8 /* AppDelegate.swift */; };
 		74D5FF7A2943A63B00029FF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D5FF792943A63B00029FF8 /* SceneDelegate.swift */; };
 		74D5FF7C2943A63B00029FF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D5FF7B2943A63B00029FF8 /* ViewController.swift */; };
-		74D5FF7F2943A63B00029FF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D5FF7D2943A63B00029FF8 /* Main.storyboard */; };
 		74D5FF812943A63C00029FF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D5FF802943A63C00029FF8 /* Assets.xcassets */; };
 		74D5FF842943A63C00029FF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D5FF822943A63C00029FF8 /* LaunchScreen.storyboard */; };
 		74D5FF8F2943A63C00029FF8 /* Compositional_LayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D5FF8E2943A63C00029FF8 /* Compositional_LayoutTests.swift */; };
 		74D5FF992943A63C00029FF8 /* Compositional_LayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D5FF982943A63C00029FF8 /* Compositional_LayoutUITests.swift */; };
 		74D5FF9B2943A63C00029FF8 /* Compositional_LayoutUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D5FF9A2943A63C00029FF8 /* Compositional_LayoutUITestsLaunchTests.swift */; };
+		74D5FFA82943A7CF00029FF8 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D5FFA72943A7CF00029FF8 /* ListItem.swift */; };
+		74D5FFAA2943A81900029FF8 /* LIstSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D5FFA92943A81900029FF8 /* LIstSection.swift */; };
+		74D5FFAC2943AA6C00029FF8 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D5FFAB2943AA6C00029FF8 /* MockData.swift */; };
+		74D5FFAF2943B64200029FF8 /* SaleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D5FFAE2943B64200029FF8 /* SaleCollectionViewCell.swift */; };
+		74D5FFB12943B65000029FF8 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D5FFB02943B65000029FF8 /* CategoryCollectionViewCell.swift */; };
+		74D5FFB32943B65E00029FF8 /* ComingSoonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D5FFB22943B65E00029FF8 /* ComingSoonCollectionViewCell.swift */; };
+		74D5FFB52943C4E700029FF8 /* HeaderSupplementaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D5FFB42943C4E700029FF8 /* HeaderSupplementaryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +46,6 @@
 		74D5FF772943A63B00029FF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74D5FF792943A63B00029FF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		74D5FF7B2943A63B00029FF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		74D5FF7E2943A63B00029FF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74D5FF802943A63C00029FF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74D5FF832943A63C00029FF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74D5FF852943A63C00029FF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		74D5FF942943A63C00029FF8 /* Compositional LayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Compositional LayoutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D5FF982943A63C00029FF8 /* Compositional_LayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compositional_LayoutUITests.swift; sourceTree = "<group>"; };
 		74D5FF9A2943A63C00029FF8 /* Compositional_LayoutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compositional_LayoutUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		74D5FFA72943A7CF00029FF8 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		74D5FFA92943A81900029FF8 /* LIstSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIstSection.swift; sourceTree = "<group>"; };
+		74D5FFAB2943AA6C00029FF8 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		74D5FFAE2943B64200029FF8 /* SaleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleCollectionViewCell.swift; sourceTree = "<group>"; };
+		74D5FFB02943B65000029FF8 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		74D5FFB22943B65E00029FF8 /* ComingSoonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonCollectionViewCell.swift; sourceTree = "<group>"; };
+		74D5FFB42943C4E700029FF8 /* HeaderSupplementaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSupplementaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +111,16 @@
 		74D5FF762943A63B00029FF8 /* Compositional Layout */ = {
 			isa = PBXGroup;
 			children = (
+				74D5FFAD2943B61E00029FF8 /* Cells */,
 				74D5FF772943A63B00029FF8 /* AppDelegate.swift */,
 				74D5FF792943A63B00029FF8 /* SceneDelegate.swift */,
 				74D5FF7B2943A63B00029FF8 /* ViewController.swift */,
-				74D5FF7D2943A63B00029FF8 /* Main.storyboard */,
+				74D5FFA72943A7CF00029FF8 /* ListItem.swift */,
 				74D5FF802943A63C00029FF8 /* Assets.xcassets */,
 				74D5FF822943A63C00029FF8 /* LaunchScreen.storyboard */,
 				74D5FF852943A63C00029FF8 /* Info.plist */,
+				74D5FFA92943A81900029FF8 /* LIstSection.swift */,
+				74D5FFAB2943AA6C00029FF8 /* MockData.swift */,
 			);
 			path = "Compositional Layout";
 			sourceTree = "<group>";
@@ -125,6 +140,17 @@
 				74D5FF9A2943A63C00029FF8 /* Compositional_LayoutUITestsLaunchTests.swift */,
 			);
 			path = "Compositional LayoutUITests";
+			sourceTree = "<group>";
+		};
+		74D5FFAD2943B61E00029FF8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				74D5FFAE2943B64200029FF8 /* SaleCollectionViewCell.swift */,
+				74D5FFB02943B65000029FF8 /* CategoryCollectionViewCell.swift */,
+				74D5FFB22943B65E00029FF8 /* ComingSoonCollectionViewCell.swift */,
+				74D5FFB42943C4E700029FF8 /* HeaderSupplementaryView.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +259,6 @@
 			files = (
 				74D5FF842943A63C00029FF8 /* LaunchScreen.storyboard in Resources */,
 				74D5FF812943A63C00029FF8 /* Assets.xcassets in Resources */,
-				74D5FF7F2943A63B00029FF8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +283,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74D5FFB12943B65000029FF8 /* CategoryCollectionViewCell.swift in Sources */,
+				74D5FFAA2943A81900029FF8 /* LIstSection.swift in Sources */,
+				74D5FFAC2943AA6C00029FF8 /* MockData.swift in Sources */,
+				74D5FFB32943B65E00029FF8 /* ComingSoonCollectionViewCell.swift in Sources */,
+				74D5FFA82943A7CF00029FF8 /* ListItem.swift in Sources */,
+				74D5FFAF2943B64200029FF8 /* SaleCollectionViewCell.swift in Sources */,
 				74D5FF7C2943A63B00029FF8 /* ViewController.swift in Sources */,
 				74D5FF782943A63B00029FF8 /* AppDelegate.swift in Sources */,
 				74D5FF7A2943A63B00029FF8 /* SceneDelegate.swift in Sources */,
+				74D5FFB52943C4E700029FF8 /* HeaderSupplementaryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +329,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		74D5FF7D2943A63B00029FF8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				74D5FF7E2943A63B00029FF8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		74D5FF822943A63C00029FF8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,7 +465,6 @@
 				INFOPLIST_FILE = "Compositional Layout/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,7 +491,6 @@
 				INFOPLIST_FILE = "Compositional Layout/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
